@@ -1,28 +1,16 @@
-/*
-A variable in JavaScript is a container used to store data values. It allows you to assign and manipulate values throughout your programme.
-
-5 things you need to know to declare a variable in JavaScript:
-
-1. Use var/let/const
-    a. var (old, avoid using it)
-    b. let (preferred for changeable values)
-    c. const (preferred for non-changeable values)
-
-2. Variable names must be valid identifiers
-    a. it can't start with number
-    b. can contain letter, number, _ & $
-    c. case sensitive (name & Name are two different variable name)
-
-3. Use meaningful names
-
-4. You don't need to specify the types. JavaScript automatically assigns it
-
-5. Variables are scoped 
-    a. var is function scoped
-    b. let & const are block scoped
-
+/* 
+Declaring a variable need 5 things:
+a) const: you declared a variable
+b) name: name of the variable
+c) = you are going to set a value
+d) value = variable value that you want to store
+e) ; = code finished
 */
 
-let name = "Reza";
-const sum = 43 + 30;
-const num = 5;
+const birthYear = 1997;
+const siblings = 0;
+const students = 300;
+const marks = 65;
+const rooms = 2;
+const studyTime = 2;
+const total = 0 + 1 + 7 + 4 + 0 + 5 + 9 + 2 + 4 + 9;
